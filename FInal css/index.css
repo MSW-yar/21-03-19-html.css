@@ -1,0 +1,39 @@
+/* .grid{
+    height: 100%;
+    display: grid;
+    grid-template-columns:auto auto auto; /*number of columns*/
+    /* grid-template-rows: auto auto auto; */
+    
+ */
+
+/* body{
+    height=100vh;
+}
+
+.container{
+    display: inline;
+    height: 300px;
+}
+
+.container div {
+    flex-basis: 200px;
+    
+} */
+
+
+.css {
+    background-color: rgb(199, 17, 17);
+        color: blue;
+        width: 400px;
+        height: 500px;
+        margin : 200px;
+}
+@media screen and (min-width:400px) and (max-width:800px){
+    .css {
+        background-color: black;
+        color: blue;
+        height: 500px;
+        margin : 200px;
+
+    }
+}
